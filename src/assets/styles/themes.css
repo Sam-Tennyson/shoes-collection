@@ -13,6 +13,8 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	--primary-color: #fb0430;
+	--black-color: #000;
+	--white-color: #fff;
 }
 
 .font-weight-800 {
@@ -39,4 +41,14 @@
 
 .my-card-featured {
     box-shadow: rgba(2,0,36,1) 0px 5px 15px;
+}
+
+.light-class {
+	background: var(--white-color);
+	color: var(--black-color);
+}
+
+.dark-class {
+	background: var(--black-color);
+	color: var(--white-color);
 }
