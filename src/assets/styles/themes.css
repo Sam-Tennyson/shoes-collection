@@ -1,0 +1,42 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	/* background-color: #242424; */
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	--primary-color: #fb0430;
+}
+
+.font-weight-800 {
+	font-weight: 800;
+}
+
+.shadoww {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.shadoww:hover {
+	box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+
+.back {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 105, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.my-card {
+	width: 18rem;
+	min-height: 16rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.my-card-featured {
+    box-shadow: rgba(2,0,36,1) 0px 5px 15px;
+}
