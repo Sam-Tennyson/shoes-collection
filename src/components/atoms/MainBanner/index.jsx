@@ -6,8 +6,8 @@ const ENUM = {
     MEN_S: "Men's",
     UNIQUE: "Unique",
     ASHION: "ashion",
-    EXPLORE_SOME: "Explore Some",
-    F: "F",
+    EXPLORE_SOME: " Explore Some ",
+    F: " F",
     SHOE_COLLECTION: "Shoe Collections",
     image_url: "https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png"
 }

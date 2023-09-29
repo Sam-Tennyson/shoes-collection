@@ -11,24 +11,14 @@ import ShoesListing from './components/ShoesListing'
 import AboutUs from '../components/cells/AboutUs'
 
 import { THEME_COLOR, useTheme } from '../contexts/ThemeContext'
+import ToggleTheme from '../components/atoms/ToggleTheme'
 
 const Home = () => {
-	const { theme, toggleTheme } = useTheme()
-	console.log(theme);
+	const { theme } = useTheme()
 	return (
 		<>
 			<main id="main" className={`p-3 ${theme === THEME_COLOR.LIGHT ? "light-class" : "dark-class"} `} >
-				<div className='text-end'>
-					{theme === THEME_COLOR.DARK ? (
-						<i onClick={() => toggleTheme(THEME_COLOR.DARK)}>
-						<FontAwesomeIcon icon={faToggleOn} size='2xl' />
-					</i>
-				) : (
-					<i onClick={() => toggleTheme(THEME_COLOR.LIGHT)}>
-						<FontAwesomeIcon icon={faToggleOff} size='2xl' />
-					</i>
-				)}
-				</div>
+				<ToggleTheme />
 				<MainBanner />
 				<ShoesListing />
 				<FeaturesShoes />
